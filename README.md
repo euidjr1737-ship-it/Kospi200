@@ -1,12 +1,14 @@
-# 📈 KOSPI200 추천 시스템 (Streamlit)
+# 📈 코스피200 주식 추천 시스템
 
-초보자도 이해하기 쉬운 규칙 기반 주식 추천 도구입니다.
-- 데이터 소스: Yahoo Finance (yfinance) — 한국 티커는 `005930.KS` 같은 형식 사용.
-- 추천 기준: 모멘텀(최근 수익률) + 변동성 필터 + 이동평균 골든크로스
+Open API (Yahoo Finance) 기반으로 코스피200 주요 종목 데이터를 분석하고  
+Streamlit으로 시각화하는 간단한 대시보드입니다.
 
-## 실행
+## 💡 기능
+- 코스피200 주요 종목 실시간 데이터 조회
+- 주가 차트 시각화
+- 이동평균선 기반 상승/하락 추세 분석
+
+## 🚀 실행 방법
 ```bash
-git clone <repo>
-cd repo
 pip install -r requirements.txt
 streamlit run app.py
